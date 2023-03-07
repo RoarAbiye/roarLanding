@@ -32,11 +32,29 @@ body {
   padding: 0 18px;
 }
 
+#hero-section {
+  padding: 100px 0px;
+}
+
+#hero-section * {
+  margin: 8px;
+}
+
 #hero-section, a {
   color: #F9FAF8;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
+}
+
+#hero-section button {
+  background-color: #3882F6;
+  color: white;
+  padding: 6px 30px;
+  border-style: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #hero-left, #hero-right {
@@ -48,17 +66,78 @@ body {
   font-size: 48px;
   font-weight: bolder;
 }
+.cards-background {
+  background-color: white;
+  padding: 80px;
 
+}
 
 .card-container{
   display: flex;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
+}
+
+.qoute-bacground {
+  background-color: #e5e7eb;
+  padding: 80px;
 }
 
 .card {
   width: 200px;
   height: 200px;
-  background: wheat;
-  margin: 10px;
+  margin: 8px;
+
+  border-style: solid;
+  border-color: #3882F6 ;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.blue-background {
+}
+.call-to-actoin {
+  padding: 12px;
+  margin: 12px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+.cta-background{
+  background-color: white;
+  padding: 36px;
+}
+
+.cta-secton{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #3882F6;
+  padding: 60px;
+  border-radius: 9px;
+  color: white;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  color: white;
+  padding: 6px 30px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 24px;
 }
