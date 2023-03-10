@@ -11,6 +11,10 @@ body {
 
 }
 
+img {
+  object-fit: cover;
+}
+
 .section-container {
   max-width: 1000px;
   margin: auto;
@@ -32,6 +36,11 @@ body {
   padding: 0 18px;
 }
 
+#logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
 #hero-section {
   padding: 100px 0px;
 }
@@ -66,6 +75,11 @@ body {
   font-size: 48px;
   font-weight: bolder;
 }
+
+.hero-subtext {
+  font-size: 18px;
+}
+
 .cards-header {
   font-size: 24px;
   font-weight: bold;
@@ -100,7 +114,23 @@ body {
   text-align: center;
 }
 
-.blue-background {
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.qoute {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 8px;
 }
 .call-to-actoin {
   padding: 12px;
@@ -142,7 +172,7 @@ body {
   font-size: 24px;
 }
 
-.footer {
+footer {
   text-align: center;
   color: white;
   padding: 24px;
