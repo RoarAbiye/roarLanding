@@ -66,6 +66,12 @@ body {
   font-size: 48px;
   font-weight: bolder;
 }
+.cards-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0 36px 0;
+}
 .cards-background {
   background-color: white;
   padding: 80px;
@@ -78,8 +84,8 @@ body {
   margin: auto;
 }
 
-.qoute-bacground {
-  background-color: #e5e7eb;
+.qoute-bacground{
+  background-color: #E5E7EB;
   padding: 80px;
 }
 
