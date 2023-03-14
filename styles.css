@@ -92,13 +92,13 @@ img {
 
 }
 
-.card-container{
+.card-container {
   display: flex;
   max-width: 1000px;
   margin: auto;
 }
 
-.qoute-bacground{
+.qoute-bacground {
   background-color: #E5E7EB;
   padding: 80px;
 }
@@ -139,19 +139,19 @@ img {
   border-radius: 10px;
 }
 
-.card-subtext{
+.card-subtext {
   font-weight: lighter;
   font-size: 14px;
   text-align: center;
   width: 200px;
 }
 
-.cta-background{
+.cta-background {
   background-color: white;
   padding: 36px;
 }
 
-.cta-secton{
+.cta-secton {
   display: flex;
   justify-content: space-around;
   align-items: center;
