@@ -139,6 +139,12 @@ img {
   border-radius: 10px;
 }
 
+.card-subtext{
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+  width: 200px;
+}
 
 .cta-background{
   background-color: white;
